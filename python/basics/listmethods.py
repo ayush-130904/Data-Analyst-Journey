@@ -1,0 +1,11 @@
+list =[2,3,5,4,6,8]
+list.append(7)
+print(list)
+list.sort(reverse=True)
+print(list)
+list.reverse()
+print(list)
+list.insert(3,9)
+print(list)
+list.sort()
+print(list)

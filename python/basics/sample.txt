@@ -1,0 +1,3 @@
+HI everyone
+We are learning FIleI/O
+using Python.
