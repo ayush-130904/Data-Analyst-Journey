@@ -8,9 +8,3 @@ Welcome to my learning journey! This repository contains all the practical exerc
 * **Python:** Data cleaning (Pandas) and Visualization (Matplotlib/Seaborn).
 * **BI Tools:** Power BI / Tableau.
 
-## 📁 Project Highlights
-| Module | Topic | Key Skills |
-| :--- | :--- | :--- |
-| SQL | Employee Database | Complex Joins, CTEs |
-| Python | Titanic Dataset | Exploratory Data Analysis (EDA) |
-| Power BI | Sales Report | DAX, Interactive Filtering |
