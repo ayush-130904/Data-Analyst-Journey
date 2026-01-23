@@ -1,0 +1,62 @@
+,,,,,,,,,,,
+Roll_No,Student_Name,Gender,Age,Course,Subject,Email,Phone,Admission_Date,Attendance_%,GPA,Status
+1,Aarav Sharma,Male,20,BSc IT,Database Systems,aarav.sharma@gmail.com,9876543210,2022-08-01,85,3.4,Active
+2,Ananya Verma,Female,,BSc IT,Operating Systems,ananya.verma@gmail.com,9876543211,2022-08-03,78,3.1,Active
+3,Rohan Mehta,Male,19,BCA,Programming in C,,9876543212,2023-07-15,92,3.8,Active
+4,Priya Singh,Female,22,BBA,Marketing Management,priya.singh@gmail.com,,2021-08-10,65,2.6,Inactive
+5,Aditya Patel,Male,20,BCA,Data Structures,aditya.patel@gmail.com,9876543214,2023-07-18,,3.5,Active
+6,Neha Gupta,Female,21,BSc IT,Computer Networks,,9876543215,2022-08-05,74,3.0,Active
+7,Kunal Joshi,Male,23,BBA,Financial Accounting,kunal.joshi@gmail.com,9876543216,2021-08-12,58,,Dropped
+8,Ishita Kapoor,Female,19,BCA,Java Programming,ishita.k@gmail.com,9876543217,2023-07-20,91,3.9,
+9,Manish Rao,Male,,BSc IT,Web Technologies,manish.rao@gmail.com,9876543218,2022-08-08,69,2.8,Active
+10,Sneha Iyer,Female,20,BBA,,sneha.iyer@gmail.com,9876543219,2022-08-15,83,3.3,Active
+11,Arjun Nair,Male,21,BCA,Python Programming,arjun.nair@gmail.com,,2023-07-22,95,4.0,Active
+12,Kavya Malhotra,Female,22,BSc IT,Software Engineering,,9876543221,2022-08-20,72,,Active
+13,Deepak Yadav,Male,24,BBA,Business Analytics,deepak.y@gmail.com,9876543222,2021-08-18,,2.4,Inactive
+14,Simran Kaur,Female,,BCA,Data Structures,simran.kaur@gmail.com,9876543223,2023-07-25,89,3.6,Active
+15,Vikas Mishra,Male,21,BSc IT,Cloud Computing,vikas.m@gmail.com,,2022-08-25,77,3.1,
+16,Pooja Chawla,Female,23,BBA,Entrepreneurship,,9876543225,2021-08-22,55,2.0,Dropped
+17,Rahul Das,Male,19,BCA,Computer Fundamentals,rahul.d@gmail.com,9876543226,2023-07-28,84,,Active
+18,Nidhi Agarwal,Female,21,BSc IT,Cyber Security,nidhi.a@gmail.com,9876543227,2022-08-30,90,3.7,Active
+19,Sachin Bansal,Male,22,BBA,Operations Management,,9876543228,2021-08-28,67,2.7,Inactive
+20,Aditi Kulkarni,Female,20,BCA,Web Development,aditi.k@gmail.com,,2023-08-01,93,3.9,Active
+21,Varun Khanna,Male,,BSc IT,AI Fundamentals,varun.k@gmail.com,9876543230,2022-09-02,81,,Active
+22,Ritika Sood,Female,22,BBA,Corporate Law,ritika.s@gmail.com,9876543231,2021-09-01,,2.5,Inactive
+23,Mohit Jain,Male,23,BCA,,mohit.j@gmail.com,9876543232,2023-08-03,87,3.4,Active
+24,Shreya Bose,Female,19,BSc IT,UI UX Design,,9876543233,2022-09-05,94,3.8,Active
+25,Aman Arora,Male,20,BBA,Economics,aman.a@gmail.com,9876543234,2021-09-10,70,,Active
+26,Tanya Roy,Female,21,BCA,SQL Programming,tanya.r@gmail.com,,2023-08-05,88,3.5,Active
+27,Harsh Vardhan,Male,22,BSc IT,Big Data Analytics,,9876543236,2022-09-08,76,3.0,Active
+28,Meenal Shah,Female,24,BBA,International Business,meenal.s@gmail.com,9876543237,2021-09-12,,2.3,Dropped
+29,Ritesh Pandey,Male,,BCA,Object Oriented Programming,ritesh.p@gmail.com,9876543238,2023-08-08,91,3.7,Active
+30,Alisha Khan,Female,21,BSc IT,Data Mining,alisha.k@gmail.com,,2022-09-15,85,3.4,
+31,Naveen Kumar,Male,22,BCA,Software Testing,,9876543240,2023-08-12,79,3.0,Active
+32,Pallavi Joshi,Female,,BBA,Brand Management,pallavi.j@gmail.com,9876543241,2021-09-18,66,2.6,Inactive
+33,Rahul Verma,Male,20,BSc IT,Network Security,rahul.v@gmail.com,,2022-09-20,,3.2,Active
+34,Kiran Rao,Female,23,BCA,Mobile App Dev,,9876543243,2023-08-15,90,3.8,Active
+35,Suresh Yadav,Male,24,BBA,Strategic Mgmt,suresh.y@gmail.com,9876543244,2021-09-22,61,,Inactive
+36,Ankita Mishra,Female,21,BSc IT,DevOps Basics,ankita.m@gmail.com,,2022-09-25,88,3.6,Active
+37,Raj Malhotra,Male,,BCA,Algorithms,raj.m@gmail.com,9876543246,2023-08-18,92,3.9,Active
+38,Poonam Kaur,Female,22,BBA,Consumer Behavior,,9876543247,2021-09-28,68,2.8,Inactive
+39,Vivek Singh,Male,20,BSc IT,Data Warehousing,vivek.s@gmail.com,9876543248,2022-10-01,75,3.1,
+40,Neelam Arora,Female,23,BCA,ASP.NET,,9876543249,2023-08-20,89,3.7,Active
+41,Ajay Patel,Male,21,BBA,Cost Accounting,ajay.p@gmail.com,,2021-10-03,,2.9,Active
+42,Sonal Mehta,Female,,BSc IT,Blockchain Basics,sonal.m@gmail.com,9876543251,2022-10-05,86,3.5,Active
+43,Prakash Nair,Male,24,BCA,Unix Programming,,9876543252,2023-08-22,73,2.9,Inactive
+44,Renu Sharma,Female,19,BSc IT,Digital Forensics,renu.s@gmail.com,9876543253,2022-10-08,91,3.8,Active
+45,Nitin Agarwal,Male,22,BBA,Taxation,nitin.a@gmail.com,,2021-10-10,64,,Inactive
+46,Priyanka Das,Female,21,BCA,React JS,,9876543255,2023-08-25,87,3.6,Active
+47,Ashish Gupta,Male,,BSc IT,IT Service Mgmt,ashish.g@gmail.com,9876543256,2022-10-12,80,3.2,Active
+48,Swati Kulkarni,Female,23,BBA,Supply Chain,,9876543257,2021-10-15,59,2.4,Dropped
+49,Rohit Chandra,Male,20,BCA,Linux Admin,rohit.c@gmail.com,,2023-08-28,93,3.9,Active
+50,Isha Jain,Female,22,BSc IT,Data Visualization,isha.j@gmail.com,9876543259,2022-10-18,,3.4,Active
+51,Manoj Tiwari,Male,24,BBA,Auditing,,9876543260,2021-10-20,62,2.5,Inactive
+52,Pooja Verma,Female,,BCA,Node JS,pooja.v@gmail.com,9876543261,2023-08-30,90,3.7,Active
+53,Kartik Bhat,Male,21,BSc IT,Cloud Security,kartik.b@gmail.com,,2022-10-22,84,,Active
+54,Divya Reddy,Female,23,BBA,International Finance,,9876543263,2021-10-25,71,2.8,Active
+55,Akhil Menon,Male,20,BCA,DSA,akhil.m@gmail.com,9876543264,2023-09-01,95,4.0,Active
+56,Shruti Iyer,Female,22,BSc IT,ML Basics,shruti.i@gmail.com,,2022-10-28,88,3.6,Active
+57,Rajesh Kumar,Male,,BBA,Corporate Strategy,rajesh.k@gmail.com,9876543266,2021-10-30,60,2.4,Inactive
+58,Neha Sethi,Female,21,BCA,PHP Programming,,9876543267,2023-09-03,82,3.2,Active
+59,Anil Rawat,Male,23,BSc IT,IT Governance,anil.r@gmail.com,,2022-11-02,,3.1,Active
+60,Komal Bansal,Female,20,BBA,Startup Management,komal.b@gmail.com,9876543269,2021-11-05,78,3.0,
