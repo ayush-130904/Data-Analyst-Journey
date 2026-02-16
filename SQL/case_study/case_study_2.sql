@@ -118,3 +118,112 @@ INNER JOIN Sales S
 ON C.C_Id = S.C_Id
 GROUP BY C.C_Id, C.Name
 HAVING SUM(S.Sales_ammount) > 10000;
+
+#Find Customers who made more than 1 purchases
+SELECT C.Name, COUNT(S.C_Id) AS total_purchases
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+GROUP BY C.Name
+HAVING COUNT(S.C_Id) > 1;
+
+#Show cities whose total sales exceed 20000
+SELECT C.City, SUM(S.Sales_ammount) AS total_sales_amt
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+GROUP BY C.City
+HAVING SUM(S.Sales_ammount) > 20000;
+
+#Find Category whose avg sales ammount is grater than 5000
+SELECT Category, ROUND(AVG(Sales_ammount), 2) AS total_sales_amt            #round function used for 2 valuyes after decimal
+FROM Sales
+GROUP BY Category
+HAVING AVG(Sales_ammount) > 5000;
+
+#Find Customer who purchase Electronics Category more than 2 times
+SELECT C.Name, COUNT(S.Category) AS total_purchases
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+WHERE S.Category = "Electronics"
+GROUP BY C.Name
+HAVING COUNT(S.Category) > 0;
+
+#Display top 5 highest sales record
+SELECT * FROM Sales
+ORDER BY Sales_ammount DESC
+LIMIT 5;
+
+#Show customers ordered by total sales ammount in descending order
+SELECT C.C_Id, C.Name, SUM(S.Sales_ammount) AS total_sales_amt
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+GROUP BY C.C_Id, C.Name
+ORDER BY SUM(S.Sales_ammount) DESC;
+
+#Display lowest 3 sales record
+SELECT * FROM Sales S
+ORDER BY Sales_ammount DESC
+LIMIT 3
+OFFSET 2;
+
+#Show Cities ordered by total sales ammount (highest first)
+SELECT C.City, SUM(S.Sales_ammount) AS total_sales_amt
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+GROUP BY C.City
+ORDER BY SUM(S.Sales_ammount) DESC;
+
+#Find the most valuable customer (highest total sales amount)
+SELECT C.C_Id, C.Name, SUM(S.Sales_ammount) AS total_sales_amt
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+GROUP BY C.C_Id, C.Name
+ORDER BY SUM(S.Sales_ammount) DESC
+LIMIT 1;
+
+#Display top 3 customers by total sales ammount
+SELECT C.C_Id, C.Name, SUM(S.Sales_ammount) AS total_sales_amt
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+GROUP BY C.C_Id, C.Name
+ORDER BY SUM(S.Sales_ammount) DESC
+LIMIT 3;
+
+#Find the second highest sales ammount record
+SELECT * FROM Sales 
+ORDER BY Sales_ammount DESC
+LIMIT 1
+OFFSET 1;
+
+#Display the 4rd to 6th highest sales record
+SELECT * FROM Sales 
+ORDER BY Sales_ammount DESC
+LIMIT 3
+OFFSET 3;   
+
+#Find the third highest spending Customer
+SELECT C.Name, SUM(S.Sales_ammount) AS total_sales_amt
+FROM Customer C
+INNER JOIN Sales S
+ON C.C_Id = S.C_Id
+GROUP BY C.Name
+ORDER BY SUM(S.Sales_ammount) DESC
+LIMIT 1
+OFFSET 2;
+
+#Find the highest sale in each city
+-- SELECT DISTINCT C.City, S.Sales_ammount
+-- FROM Customer C
+-- INNER JOIN Sales S
+-- ON C.C_Id = S.C_Id
+-- WHERE C.City = ""
+-- ORDER BY S.Sales_ammount DESC;
+
+
+
